@@ -94,7 +94,7 @@ class _WeatherPageState extends State<WeatherPage> {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  _weather?.mainCondition ?? "",
+                  _weather?.mainCondition ?? "Loading.....",
                   style: const TextStyle(
                     color: Colors.grey,
                     fontSize: 18,
